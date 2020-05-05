@@ -12,7 +12,7 @@ import com.acti.Base.DriverScript;
  */
 //We are writing the supporting class all validation will be done in test cases
 public class LoginPage extends DriverScript {
-	// *****************************Page elements***************************//
+	// *****************************Page elements Identification***************************//
 
 	@FindBy(id = "logoContainer")
 	WebElement actiLogo; // logo acronym to represent the element from the web

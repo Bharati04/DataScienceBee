@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19907" started-at="2020-05-05T20:37:59Z" finished-at="2020-05-05T20:38:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19907" started-at="2020-05-05T20:37:59Z" finished-at="2020-05-05T20:38:19Z">
+      <class name="com.acti.TestCase.LoginPageTest">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.TestCase.LoginPageTest@5c3bd550]" name="preTest" is-config="true" duration-ms="14454" started-at="2020-05-05T15:37:59Z" finished-at="2020-05-05T15:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testValidateLoginFunction1()[pri:4, instance:com.acti.TestCase.LoginPageTest@5c3bd550]" name="testValidateLoginFunction1" duration-ms="685" started-at="2020-05-05T15:38:13Z" finished-at="2020-05-05T15:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoginFunction1 -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.acti.TestCase.LoginPageTest@5c3bd550]" name="postTest" is-config="true" duration-ms="4737" started-at="2020-05-05T15:38:14Z" finished-at="2020-05-05T15:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.acti.TestCase.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
