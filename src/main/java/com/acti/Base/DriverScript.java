@@ -30,7 +30,7 @@ public class DriverScript {
 			System.out.println("Unable to load property file " + e.getMessage());
 		}
 	}
-//@Test // after testing delete it 
+//@Test // after unit testing delete it 
 	// create one method
 	public static void initApp() {
 		String browser = prop.getProperty("browser");
