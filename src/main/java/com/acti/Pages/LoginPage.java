@@ -33,7 +33,7 @@ public class LoginPage extends DriverScript {
 		//PageFactory.initElements(driver, LoginPage.class);// or we can write like 
 		
 		PageFactory.initElements(driver, this);
-		// pagefactory is the class which is used to initialize the page elements which takes
+		// pagefactory is the class in POM (page object model) which is used to initialize the page elements which takes
 		//two arguments one is from driver script and one is from current class(this)
 	}
 	// *****************************Page Actions /Methods***************************//
