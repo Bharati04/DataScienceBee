@@ -12,28 +12,10 @@ import com.acti.Pages.LoginPage;
  * Date Created : 5/5/2020
  * Last Modified: 5/5/2020
  */
-public class LoginPageTest extends DriverScript
+public class LoginPageTest extends BaseTest
 {
-	LoginPage lp;
-	public LoginPageTest()
-	{
-		//super keyword is used to call the base constructor(Parent Class Constructor)
-		super();
-	}
-	@BeforeMethod
-	public void preTest()
-	{
-		initApp();// methods written in driver script and calling it here
-		lp= new LoginPage();
-		
-	}
-
-	@AfterMethod
-	public void postTest()
-	{
-		driver.close();
-	}
-/*	@Test(priority=1)
+	
+@Test(priority=1)
 	public void testVerifyActiLogo()
 	{
 	//LoginPage lp= new LoginPage();
@@ -55,7 +37,7 @@ public class LoginPageTest extends DriverScript
 	{
 		//LoginPage lp= new LoginPage();
 		lp.validateLogin("admin", "manager");
-	}*/
+	}
 	
 	// we can also get the username and Password from the properties file./
 	//before that we have to update the username and password in properties file and save it
